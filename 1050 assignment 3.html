@@ -1,0 +1,539 @@
+<link rel="stylesheet" href="1050 assignment 3.css">
+<script src="1050 assignment 3.js"></script>
+
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="img/nesso.png"alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Menu
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Featured
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-998">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Welcome to</span>
+            <!--Logo-->
+            <picture class="cs-logo">
+                <source media="(max-width: 600px)" srcset="img/nesso.png">
+                <source media="(min-width: 601px)" srcset="img/nesso.png">
+                <img decoding="async" src="img/black.png" alt="Stitch House Restaurant" width="614" height="166">
+                </picture>
+                <p class="cs-text">
+                
+                </p>
+                <a href="" class="cs-button-solid">Reserve Your Food</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <!--Image is also set as background image in CSS at 1400px for parallax effect-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/table-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/table.jpg">
+        <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/table.jpg" alt="logo" width="1920" height="1000">
+        </picture>
+</section>
+<!-- ============================================ -->
+<!--                   Services                   -->
+<!-- ============================================ -->
+
+<section id="services-279">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Featured</span>
+            <h2 class="cs-title">We offer specialized catering with a wide range of catering packages</h2>
+            <p class="cs-text">
+                We offer numerous catering packages through both our specialized standard catering menu and our green catering menu. While also providing custom all day packages upon request.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="img/Breakfast menu.png">
+                    <source media="(min-width: 601px)" srcset="img/Breakfast menu.png">
+                    <img loading="lazy" src="img/Breakfast menu.png" alt="living room" width="348" height="433" aria-hidden="true">
+                </picture>
+                <div class="cs-box">
+                    <h3 class="cs-h3">Breakfast menu</h3>
+                    <a class="cs-button-transparent" aria-label="read more about foyers" href="">Read More</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="img/Canapes menu.png">
+                    <source media="(min-width: 601px)" srcset="img/Canapes menu.png">
+                    <img loading="lazy" src="img/Canapes menu.png" alt="living room" width="348" height="433" aria-hidden="true">
+                </picture>
+                <div class="cs-box">
+                    <h3 class="cs-h3">Canapes menu</h3>
+                    <a class="cs-button-transparent" aria-label="read more about bathrooms" href="">Read More</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="img/Morning tea & afternoon tea.png">
+                    <source media="(min-width: 601px)" srcset="img/Morning tea & afternoon tea.png">
+                    <img loading="lazy" src="img/Morning tea & afternoon tea.png" alt="living room" width="348" height="433" aria-hidden="true">
+                </picture>
+                <div class="cs-box">
+                    <h3 class="cs-h3">Afternoon tea</h3>
+                    <a class="cs-button-transparent" aria-label="read more about living rooms" href="">Read More</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-1446">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Food</span>
+                <h2 class="cs-title">Featured</h2>
+            </div>
+        </div>
+        <!--Gallery-->
+        <div class="cs-gallery">
+            <!--Picture 1-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="img/1.png">
+                <source media="(min-width: 601px)" srcset="img/1.png">
+                <img loading="lazy" decoding="async" src="img/1.png" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 2-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="img/2.png">
+                <source media="(min-width: 601px)" srcset="img/2.png">
+                <img loading="lazy" decoding="async" src="img/2.png" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="img/3.png">
+                <source media="(min-width: 601px)" srcset="img/3.png">
+                <img loading="lazy" decoding="async" src="img/3.png" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 4-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="img/4.png">
+                <source media="(min-width: 601px)" srcset="img/4.png">
+                <img loading="lazy" decoding="async" src="img/4.png" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 5-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="img/5.png">
+                <source media="(min-width: 601px)" srcset="img/5.png">
+                <img loading="lazy" decoding="async" src="img/5.png" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 6-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="img/6.png">
+                <source media="(min-width: 601px)" srcset="img/6.png">
+                <img loading="lazy" decoding="async" src="img/6.png" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 7-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="img/7.png">
+                <source media="(min-width: 601px)" srcset="img/7.png">
+                <img loading="lazy" decoding="async" src="img/7.png" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 8-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="img/8.png">
+                <source media="(min-width: 601px)" srcset="img/8.png">
+                <img loading="lazy" decoding="async" src="img/8.png" alt="gallery" width="305" height="400">
+            </picture>
+        </div>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                 Why Choose Us                -->
+<!-- ============================================ -->
+
+<section id="why-choose-1710">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Why Choose Us</span>
+            <h2 class="cs-title">Give you the best food experience</h2>
+        </div>
+        <div class="cs-wrapper">
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <span class="cs-item-number">01</span>
+                    <div class="cs-item-wrapper">
+                        <h3 class="cs-h3">
+                            We provide fresh, healthy food to promote optimal growth, physical vitality and social well-being.
+                        </h3>
+                        <p class="cs-item-text">
+                            
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-item-number">02</span>
+                    <div class="cs-item-wrapper">
+                        <h3 class="cs-h3">
+                            Savor our a la carte breakfast and burger menus as well as international favorites prepared daily by our expert chefs to satisfy everyone's taste buds.
+                        </h3>
+                        <p class="cs-item-text">
+                            
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-item-number">03</span>
+                    <div class="cs-item-wrapper">
+                        <h3 class="cs-h3">
+                            Selection of freshly roasted coffee, including our own unique house blend.
+                        </h3>
+                        <p class="cs-item-text">
+                            
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-item-number">04</span>
+                    <div class="cs-item-wrapper">
+                        <h3 class="cs-h3">
+                            The restaurant is located inside the Monash campus, making it more convenient for everyone and saving time.
+                        </h3>
+                        <p class="cs-item-text">
+                            
+                    </div>
+                </li>
+            </ul>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <span class="cs-item-number">05</span>
+                    <div class="cs-item-wrapper">
+                        <h3 class="cs-h3">
+                            The best service attitude to all guests
+                        </h3>
+                        <p class="cs-item-text">
+                            
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-item-number">06</span>
+                    <div class="cs-item-wrapper">
+                        <h3 class="cs-h3">
+                            A good dining environment makes guests feel comfortable
+                        </h3>
+                        <p class="cs-item-text">
+                            
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-item-number">07</span>
+                    <div class="cs-item-wrapper">
+                        <h3 class="cs-h3">
+                            A lot Awards
+                        </h3>
+                        <p class="cs-item-text">
+                            2019 MONASH UNIVERSITY BEST SERVICE WINNER<br>
+                            2019 MONASH UNIVERSITY BEST VALUE (FOOD) WINNER<br>
+                            2019 MONASH UNIVERSITY BEST FOOD RETAILER (CLAYTON) WINNER<br>
+                            2019 MONASH UNIVERSITY BEST COFFEE RUNNER-UP<br>
+
+ 
+
+
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!---SVG Graphic-->
+        <img class="cs-floater" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/diagnol-ovals.svg" alt="graphic" loading="lazy" decoding="async" height="710" aria-hidden="true" width="690">
+    </div>
+    <picture class="cs-picture">
+        <source media="(min-width: 1024px)"
+                srcset="img/award.png">
+        <source media="(min-width: 601px)"
+                srcset="img/award.png">
+        <source media="(max-width: 600px)"
+                srcset="img/award.png">
+        <img aria-hidden="true" loading="lazy" decoding="async"
+                src="img/award.png"
+                alt="meeting" width="1280" height="620">
+    </picture>
+</section>
+<!-- ============================================ -->
+<!--                     FAQ                      -->
+<!-- ============================================ -->
+
+<section id="faq-1237">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Asked questions</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+        </div>
+        <!--We made two lists so when you open an FAQ item, they behave properly and separate from each other, wrapped in a wrapper div for better flexboxxing -->
+        <div class="cs-wrapper">
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-number">1</span>
+                        <span class="cs-button-text">
+                            When are we open
+
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        SEMESTER HOURS <br>MONDAY - FRIDAY 7:00AM - 6:00PM<br>SATURDAY: 7:30AM - 3:00PM <br>(SUNDAY CLOSED)<br>SEMESTER BREAK HOURS<br>MONDAY - FRIDAY 7:30AM - 4:30PM<br>
+
+                        
+
+                        
+
+
+                    
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-number">2</span>
+                        <span class="cs-button-text">
+                            What forms of payment do you accept?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-number">3</span>
+                        <span class="cs-button-text">
+                            What are your prices for brake replacement?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-number">4</span>
+                        <span class="cs-button-text">
+                            Can I change or cancel my order once it is placed?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-number">5</span>
+                        <span class="cs-button-text">
+                            Do you stock the same products online and in-store?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+            </ul>
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-number">6</span>
+                        <span class="cs-button-text">
+                            
+                            Where can find us?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        We are located just outside the Learning and Teaching Building (LTB) on the Monash Clayton Campus. Come find us whether you are on the way to your first class or are just about to head home and want to get something warm to eat on the way.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-number">7</span>
+                        <span class="cs-button-text">
+                            Do you have vip Cards?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-number">8</span>
+                        <span class="cs-button-text">
+                            Can I exchange or refund an item that was purchased online?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-number">9</span>
+                        <span class="cs-button-text">
+                            My order hasn't arrived yet, what should I do?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-number">10</span>
+                        <span class="cs-button-text">
+                            My order didn't go through, but I think you have charged me?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-272">
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <!-- Remove the light class if you don't need the dark logo -->
+                <img class="cs-logo-img light" aria-hidden="true" loading="lazy" decoding="async" src="img/nesso.png" alt="logo" width="240" height="32">
+                <!-- Lighter Dark Mode Logo, remove if not needed -->
+                <img class="cs-logo-img dark" aria-hidden="true" loading="lazy" decoding="async" src="img/nesso.png" alt="logo" width="240" height="32">
+            </a>
+            <p class="cs-text">
+                
+            </p>
+            <div class="cs-social">
+                <a class="cs-social-link" aria-label="visit google profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                </a>
+            </div>
+        </div>
+        <!-- Links -->
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Home</span>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">About us</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">FAQ</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href=""></a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href=""></a>
+            </li>
+        </ul>
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Menu</span>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Featured</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Breakfast menu</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Canapes menu</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Afternoon tea</a>
+            </li>
+        </ul>
+        <!-- Contact Info -->
+        <ul class="cs-contact">
+            <li class="cs-nav-li">
+                <span class="cs-header">Contact</span>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link cs-address" href="">
+                    PH : 03 9558 8457 <br> EMAIL: nessocatering@gmail.com
+                </a>
+            
+            </li>
+        </ul>
+    </div>
+</footer>
+                                
